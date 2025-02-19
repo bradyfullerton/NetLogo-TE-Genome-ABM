@@ -11,7 +11,7 @@ patches-own [
 to setup
   clear-all
   reset-ticks
-  ifelse netlogo-web? [ set max-turtles 80000 ] [ set max-turtles 150000 ]
+  ifelse netlogo-web? [ set max-turtles 60000 ] [ set max-turtles 120000 ]
   ask patches [
     set methylation-potential (methylation_rate_prob)  ; methylation potential controlled by slider
     set pcolor grey
