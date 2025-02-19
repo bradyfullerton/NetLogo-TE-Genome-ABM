@@ -37,7 +37,7 @@ TE Invasion rate is calculated as a probability that some random number of TE's 
 
 ## RELATED MODELS
 
-I could find no NetLogo models of the interior of the gene but I benefitted greatly from studying various relatively simple models.
+I could find no NetLogo models of the interior of the genome but I benefitted greatly from studying various relatively simple models.
 
 ## CREDITS AND REFERENCES
 
