@@ -1,14 +1,38 @@
-Version 2.0: From NetLogo "Info" Tab
+## **Project Title**  
+Transposable Element Genome Agent-Based Model in NetLogo
 
-## WHAT IS IT?
+## **Description**  
+This is a relatively simple NetLogo model of TE "behaviour" in the Genome over evolutionary time. You can use it to test certain assumptions about the genome and TEs as well as to model different possible situations. It can be very interesting to try and create states that resemble known facts about certain genomes from simple starting conditions.
 
-This is a simple model of the genome with variables that allow the modeling of Transposable Element 'behaviour' in the genome as an ecosystem. The model should be thought of as acting over evolutionary time though at certain settings and speeds it could represent a much shorter period of time.
+## **Installation Instructions**
+There are two options for using the model.
 
-## HOW IT WORKS
+**Option 1: Download NetLogo and run the model locally**
+If you are committed to learning NetLogo or getting the most out of this model then this is the option I recommend.
 
-The rules of the model are relatively simple and few are fixed. Most rules can be adjusted by sliders. Gene count, as well as TE counts, movement rates, movement distance, and propensity to hide in 'safe zones' around genes are all determined by the user. Genomic controls are controlled by the user as well. Finally, the user can control rates of gene development, and TE invasion.
+Step 1: Download the v2.0_TE_Genome_ABM.nlogo file from the GitHub repository. (Choose v1.0_TE_Genome_ABM.nlogo if you need a simpler model to get up to speed.)
 
-## HOW TO USE IT
+Step 2: Direct your web browser of choice to https://ccl.northwestern.edu/netlogo/download.shtml and downlaod the latest version of NetLogo.
+
+Step 3: Install NetLogo from the downloaded .msi file.
+
+Step 4: Open the NetLogo application you just installed (the regular version not the 3D version if it was included) and go to File > Open and select the v2.0_TE_Genome_ABM.nlogo or v1.0_TE_Genome_ABM.nlogo file you downloaded in Step 1. This will open the model in NetLogo and you can begin using it.
+
+**Option 2: Run the model in the web version of NetLogo**
+If you have limited computing power and simply want to get started as quickly as possible, choose this option.
+
+Step 1: Download the v2.0_TE_Genome_ABM.html file from the GitHub repository. (Choose v1.0_TE_Genome_ABM.html if you need a simpler model to get up to speed.)
+
+Step 2: Open the html file in your web browser of choice. This should open a fully functional instance of the model in your browser. If it does not then go on to Step 3.
+
+Step 3: Open the NetLogo website model launcher at https://www.netlogoweb.org/launch (This will also open a random sample model but you can ignore that and move on to step 4.)
+
+Step 4: At the top right of the NetLogo model launcher (website) you will see "Uplaod a Model:" and a buitton that says "Choose File." Click this button and choose the downloaded model file from your local computer. This will load the model regardless of whether you choose a downloaded .html file or .nlogo file.
+
+## **Usage**  
+Version 2.0 of the model is far more complicated than Version 1.0 and allows the user to adjust numerous settings in the model to test different assumptions and "behaviours." The NetLogo files, both the Web version and the local application version include an "Info" tab that has detailed instructions on how to use the model and what each slider and switch does. I will repeat part of that Info tab here but I would recommend that the user simply skip these notes here and jump into the model and the instructions included in the model file.
+
+From NetLogo "Info" tab:
 
 ### TE Start Numbers
 
@@ -125,70 +149,11 @@ Set the range within which a random number of Class 1 TEs will invade if they do
 
 Set the range within which a random number of Class 2 TEs will invade if they do invade (given the probability of TE invasion.)
 
-## THINGS TO NOTICE
+## **Contributing** 
+I would love to see changes made through GitHub. Please feel free to fork, make changes, and submit pull requests. I'm also open to hearing theoretical feedback that is not code-based but which I could incorporate and code myself.
 
-Notice that Class 1 TEs are generally extremely successful at replication and it takes specific measures to ensure that the simulation is not overwhelmed by their copying and pasting. Class 2 TEs on the other hand require careful slider settings to have a fighting chance. 
+## **License**  
+This work is shared with an MIT license. Please read the license file in the GitHub repository to learn more about use, modification, and attribution. 
 
-## THINGS TO TRY
-
-Try to see if you can get Class 2 TEs to outcompete Class 1 TEs in counts. Try to see when patterns emerge that resemble known facts about certain genomes.
-
-## EXTENDING THE MODEL
-
-Genes currently do not die and the model does not stop if genes are overcrowded by TEs. Think about adding conditions under which genes are damaged or die and the model stops or a fitness cost is calculated.
-
-## NETLOGO FEATURES
-
-
-## RELATED MODELS
-
-I could find no NetLogo models of the interior of the gene but I benefitted greatly from studying various relatively simple models.
-
-## CREDITS AND REFERENCES
-
-
-
-Version 1.0: From NetLogo "Info" Tab:
-
-## WHAT IS IT?
-
-This is a simple model of the genome with variables that allow the modeling of Transposable Element 'behaviour' in the genome as an ecosystem. The model should be thought of as acting over evolutionary time though at certain settings and speeds it could represent a much shorter period of time.
-
-## HOW IT WORKS
-
-The rules of the model are relatively simple and few are fixed. Most rules can be adjusted by sliders. Gene count, as well as TE counts, movement rates, movement distance, and propensity to hide in 'safe zones' around genes are all determined by the user. Methylation (or genomic controls more broadly) are controlled by the user as well.
-
-## HOW TO USE IT
-
-Use the first column of sliders to set the initial counts of TEs and genes. You can try to set a ratio that you have identified in nature or you can play with these numbers more freely. 
-
-Use the second column of sliders to adjust TE movement rate (the probability that a TE will copy and paste or cut and paste during any given tick), TE movement distance (the maximum distance that a TE will travel when it copy and pastes or cut and pastes), TE hiding probability (think of this as the chance that a TE will 'feel safe' when it is within a certain distance of a gene, which is also set by a slider), and TE Invasion rates (the chance that some random number of TEs within a given range will invade the genome in a given tick.)
-
-Use the third column of sldiers to adjust genomic controls. While this is technically titled as methylation it can also represent RNAi controls. This is the chance that at any given tick a TE will be methylated (die.) This process cannot operate within certain distances of the gene. (For this reason one can see why it is a crude measure of RNAi controls.)
-
-## THINGS TO NOTICE
-
-Notice that Class 1 TEs are generally extremely successful at replication and it takes specific measures to ensure that the simulation is not overwhelmed by their copying and pasting. Class 2 TEs on the other hand require careful slider settings to have a fighting chance. 
-
-## THINGS TO TRY
-
-Try to see if you can get Class 2 TEs to outcompete Class 1 TEs in counts. Try to see when patterns emerge that resemble known facts about certain genomes.
-
-## EXTENDING THE MODEL
-
-If you want to play with the code notice that methylation and TE hiding use the same variables to account for TE distance to the gene. Basically, TEs are quite good at 'knowing' when they're safe. See if you can code in some further complexity and uncertainty. 
-
-Genes currently do not die and the model does not stop if genes are overcrowded by TEs. Think about adding conditions under which genes are damaged or die and the model stops or a fitness cost is calculated.
-
-TE Invasion rate is calculated as a probability that some random number of TE's within the range of the initial TE count for that class of TE divided by 100 will invade the genome in a given tick. This could be refined further in the code.
-
-## NETLOGO FEATURES
-
-
-## RELATED MODELS
-
-I could find no NetLogo models of the interior of the genome but I benefitted greatly from studying various relatively simple models.
-
-## CREDITS AND REFERENCES
-
-Thank you to Stefan Linquist for feedback on this first draft of the model. I hope that it will be improved and refined over time.
+## **Contact Information**
+Please feel free to contact me directly at brady.fullerton@gmail.com if you have any questions. Otherwise, feel free to engage with the code through GitHub.
