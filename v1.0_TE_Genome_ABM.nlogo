@@ -475,16 +475,28 @@ Genes currently do not die and the model does not stop if genes are overcrowded 
 
 TE Invasion rate is calculated as a probability that some random number of TE's within the range of the initial TE count for that class of TE divided by 100 will invade the genome in a given tick. This could be refined further in the code.
 
-## NETLOGO FEATURES
-
 
 ## RELATED MODELS
 
 I could find no NetLogo models of the interior of the gene but I benefitted greatly from studying various relatively simple models.
 
-## CREDITS AND REFERENCES
+## COPYRIGHT AND LICENSE
 
-Thank you to Stefan Linquist for feedback on this first draft of the model. I hope that it will be improved and refined over time.
+MIT License
+
+Copyright (c) 2025 Brady Fullerton
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 @#$#@#$#@
 default
 true

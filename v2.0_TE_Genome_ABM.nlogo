@@ -740,15 +740,24 @@ Try to see if you can get Class 2 TEs to outcompete Class 1 TEs in counts. Try t
 
 Genes currently do not die and the model does not stop if genes are overcrowded by TEs. Think about adding conditions under which genes are damaged or die and the model stops or a fitness cost is calculated.
 
-## NETLOGO FEATURES
 
+## COPYRIGHT AND LICENSE
 
-## RELATED MODELS
+MIT License
 
-I could find no NetLogo models of the interior of the gene but I benefitted greatly from studying various relatively simple models.
+Copyright (c) 2025 Brady Fullerton
 
-## CREDITS AND REFERENCES
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 @#$#@#$#@
 default
 true
