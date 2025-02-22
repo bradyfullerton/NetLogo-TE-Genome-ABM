@@ -7,19 +7,19 @@ This is a relatively simple NetLogo model of TE "behaviour" in the Genome over e
 ## **Installation Instructions**
 There are two options for using the model.
 
-#### **Option 1: Download NetLogo and run the model locally**
+### **Option 1: Download NetLogo and run the model locally**
 
 (If you are committed to learning NetLogo or getting the most out of this model then this is the option I recommend.)
 
 **Step 1:** Download the v2.0_TE_Genome_ABM.nlogo file from the GitHub repository. (Choose v1.0_TE_Genome_ABM.nlogo if you need a simpler model to get up to speed.)
 
-**Step 2:** Direct your web browser of choice to https://ccl.northwestern.edu/netlogo/download.shtml and downlaod the latest version of NetLogo.
+**Step 2:** Direct your web browser of choice to https://ccl.northwestern.edu/netlogo/download.shtml and download the latest version of NetLogo.
 
 **Step 3:** Install NetLogo from the downloaded .msi file.
 
 **Step 4:** Open the NetLogo application you just installed (the regular version not the 3D version if it was included) and go to File > Open and select the v2.0_TE_Genome_ABM.nlogo or v1.0_TE_Genome_ABM.nlogo file you downloaded in Step 1. This will open the model in NetLogo and you can begin using it.
 
-#### **Option 2: Run the model in the web version of NetLogo**
+### **Option 2: Run the model in the web version of NetLogo**
 
 (If you have limited computing power and simply want to get started as quickly as possible, choose this option.)
 
@@ -29,7 +29,7 @@ There are two options for using the model.
 
 **Step 3:** Open the NetLogo website model launcher at https://www.netlogoweb.org/launch (This will also open a random sample model but you can ignore that and move on to step 4.)
 
-**Step 4:** At the top right of the NetLogo model launcher (website) you will see "Uplaod a Model:" and a buitton that says "Choose File." Click this button and choose the downloaded model file from your local computer. This will load the model regardless of whether you choose a downloaded .html file or .nlogo file.
+**Step 4:** At the top right of the NetLogo model launcher (website) you will see "Upload a Model:" and a buitton that says "Choose File." Click this button and choose the downloaded model file from your local computer. This will load the model regardless of whether you choose a downloaded .html file or .nlogo file.
 
 ## **Usage**  
 Version 2.0 of the model is far more complicated than Version 1.0 and allows the user to adjust numerous settings in the model to test different assumptions and "behaviours." The NetLogo files, both the Web version and the local application version include an "Info" tab that has detailed instructions on how to use the model and what each slider and switch does. I will repeat part of that Info tab here but I would recommend that the user simply skip these notes here and jump into the model and the instructions included in the model file.
